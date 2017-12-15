@@ -1,0 +1,21 @@
+<template>
+  <view>
+    Link
+  </view>
+</template>
+<script>
+  import wepy from 'wepy'
+
+  export default class Link extends wepy.component {
+    data = {
+      urlName: 'welcome/welcome'
+    }
+    props = {}
+    methods = {}
+    onLoad () {}
+  }
+</script>
+
+<style lang="css" scoped>
+  
+</style>

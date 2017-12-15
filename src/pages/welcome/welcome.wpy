@@ -1,0 +1,25 @@
+<template lang='wxml'>
+  <view>Welcome</view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Welcome extends wepy.page {
+    config = {
+      'navigationBarTitleText': 'Welcome'
+    }
+    components = {}
+    watch = {}
+    data = {}
+    computed = {}
+    watch = {}
+    methods = {}
+    events = {}
+    onLoad() {}
+  }
+</script>
+
+<style scoped lang="css">
+
+</style>

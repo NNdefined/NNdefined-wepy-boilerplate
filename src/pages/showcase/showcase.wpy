@@ -1,0 +1,25 @@
+<template lang='wxml'>
+  <view>Showcase</view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Showcase extends wepy.page {
+    config = {
+      'navigationBarTitleText': 'Showcase'
+    }
+    components = {}
+    watch = {}
+    data = {}
+    computed = {}
+    watch = {}
+    methods = {}
+    events = {}
+    onLoad() {}
+  }
+</script>
+
+<style scoped lang="css">
+
+</style>

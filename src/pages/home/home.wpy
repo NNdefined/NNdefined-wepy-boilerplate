@@ -1,0 +1,25 @@
+<template lang='wxml'>
+  <view>Home</view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Home extends wepy.page {
+    config = {
+      'navigationBarTitleText': 'Home'
+    }
+    components = {}
+    watch = {}
+    data = {}
+    computed = {}
+    watch = {}
+    methods = {}
+    events = {}
+    onLoad() {}
+  }
+</script>
+
+<style scoped lang="css">
+
+</style>
